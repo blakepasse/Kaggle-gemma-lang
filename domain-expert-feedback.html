@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <button class="login-btn">Sign In</button>
+    </div>
+    <h1>Hi There!</h1>
+    <p>Please rate the quality of this model's response to the following prompt:</p>
+    <p>Prompt: "What is the capital of France?"</p>
+    <p>Response: "Paris"</p>
+    <p>Please rate the response from 1 to 5, where 1 is the worst and 5 is the best.</p>
+    
+    <div class="slider-container">
+        <input type="range" min="1" max="5" value="3" class="slider" id="ratingSlider">
+        <div class="rating-value">Rating: <span id="ratingValue">3</span></div>
+    </div>
+
+    <p>Please provide any additional comments:</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
